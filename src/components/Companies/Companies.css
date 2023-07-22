@@ -1,0 +1,24 @@
+ .c-container {
+     justify-content: space-around;
+     gap: 5rem;
+
+ }
+
+ .c-container>img {
+     width: 9rem;
+
+ }
+
+ @media (max-width:983px) {
+     .c-wrapper .c-container {
+         display: flex;
+         flex-direction: row;
+     }
+ }
+
+ @media (max-width:418px) {
+     .c-wrapper .c-container {
+         display: flex;
+         flex-direction: column;
+     }
+ }

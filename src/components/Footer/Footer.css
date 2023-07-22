@@ -1,0 +1,54 @@
+.f-container{
+    justify-content: space-between;
+    position: relative;
+}
+
+.f-left{
+    gap: 1rem;
+}
+
+.f1-menu{
+    gap: 1.5rem;
+    margin-top:1.5rem;
+    font-weight: 500;
+}
+
+
+.f-left{
+position: relative;
+}
+
+.orange-circle2{
+    height: 2rem;
+    width: 3.9rem;
+    background: var(--orange-gradient);
+    border-radius: 1px;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    margin-top: -4rem;
+}
+
+
+@media (max-width: 800px){
+    .f-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .f-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .f-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+   
+       
+     
+
